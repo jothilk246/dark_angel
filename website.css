@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+/* Page 1 */
+
+.overall-container{
+    position: relative;
+}
+.logo1{
+    margin-top: -40%;
+    margin-left: 520px;
+}
+.logo2{
+    margin-top: -60px;
+    margin-left: -20px;
+}
+.b1{
+    height: 30px;
+}
+.b2{
+    position: absolute;
+    background-color: rgb(249, 250, 248);
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:cursive;
+    font-weight: bold;
+    margin-left: 570px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -250px;
+}
+
+button{
+    margin-top: -200px;
+}
+.b2:hover{
+    background-color: rgb(43, 9, 9);
+    color: white;
+}
+
+/* Page 2 */
+
+.a1{
+    height: 500px;
+    width: 300px;
+    margin-top: -47%;
+}
+input{
+    height: 35px;
+    width: 300px;
+    border: none;
+    box-shadow: -15px 10px 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(8, 8, 8)
+}
+.b{
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(248, 243, 243);
+    border-radius: 7px;
+}
+.b:hover{
+    background-color: rgb(101, 101, 236);
+    color: white;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(88, 29, 29);
+    padding: 15px 40px;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.li1{
+    margin-right: 20px;
+}
+.nav-links li{
+    margin-left: 1px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+.logo img{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(124, 37, 37);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+.nav-links li:hover{
+    width: 100px;
+    height: 40px;
+    text-decoration: underline;
+    background-color: rgb(252, 249, 249);
+    border-radius: 7px;
+    text-align: center;
+}
+
+/* Page3 */
+
+.main3{
+    position: relative;
+    overflow-x: hidden;
+}
+.main3{
+ display: flex;
+}
+.main3{
+    height: 35px;
+    text-align: center;
+    border: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: beige;
+}
+.m6{
+    min-width: 100%;
+    animation: run 50s infinite;
+    
+}
+@keyframes run{
+    0%{transform: translateX(0%);}
+    100%{transform: translateX(-300%);
+    }    
+}
+
+.navbar2{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgb(85, 22, 22);
+    color: white;
+    
+}
+.nav-links2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-links2 li{
+    margin-left: 20px;
+}
+.nav-links2 a:hover{
+    color: brown;
+}
+.nav-links2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+.nav-links2 li:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+    border-radius: 5px ;
+    padding: 5px;
+}
+.main1 img{
+    width: 100%;
+    height: 500px;
+}
+.m1{
+    font-size: 50px;
+    font-family:cursive;
+    margin-left: 200px;
+    color: rgb(128, 42, 42);
+}
+h1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.m2 img{
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+}
+.m3{
+    height: 35px;
+    width: 150px;
+    /* background-color: green; */
+    border-radius: 5px;
+    color: white;
+    margin-left: 500px;
+    margin-top: -60px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.malt_content{
+    margin-top: -350px;
+    margin-left: 750px;
+}
+.s1{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.q1{
+    margin-top: 5100px;
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bold;
+    color: brown;
+}
+#select{
+    height: 45px;
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+#select:hover{
+    background-color: green;
+    color: white;
+}
+.container{
+    height: 50px;
+    width: 150px;
+    margin-top: -70px;
+    margin-left: 250px;
+    display: flex;
+}
+button{
+height: 50px;
+width: 400px;
+margin-top: 20px;
+border: none;
+background-color: rgb(147, 238, 147);
+}
+#counting{
+    height: 50px;
+    width: 250px;
+    border: 2px solid green;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.m9{
+    border: 2px solid rgb(13, 92, 13);
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+    color: rgb(9, 119, 9);
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.m9:hover{
+    background-color: rgb(252, 242, 242);
+    color: black;
+}
+.m10{
+    width: 280px;
+    height: 50px;
+    margin-left: 280px;
+    margin-top: -50px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 13px;
+}
+.m10:hover{
+    background-color: rgb(143, 172, 143);
+    color: black;
+}
+.m11{
+    margin-left: 750px;
+    margin-top: 50px;
+    font-family: cursive;
+}
+.m12{
+    font-weight: bold;
+    margin-left: -1px;
+}
+.small{
+    margin-left: 80px;
+}
+.small img{
+    width: 100px;
+    height: 130px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.small img:hover{
+    transform: scale(1.50);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+.d1{
+    height: 90px;
+    width: 330px;
+    font-size: 25px;
+    background-color: rgb(167, 243, 167);
+    border-radius: 10px;
+    margin-left: 750px;
+    margin-top: -120px;
+    padding-top: 10px;
+    text-align: center;
+    font-style: oblique;
+}
+.d2{
+    display: flex;
+    font-size: 15px;
+    margin-left: -15px;
+    /* text-align: center; */
+}
+span.d7{
+    font-weight: bold;
+    margin-left: 30px;
+}
+.d4{
+    margin-left: -50px;
+}
+.d5{
+    margin-left: 10px;
+}
+.d6{
+    margin-right: 20px;
+}
+.d7{
+    margin-right: -5px;
+}
+.d8{
+    margin-right: -10px;
+}
+.d9{
+    margin-left: 10px;
+}
+.d11{
+    margin-left: 10px;
+}
+.d12{
+    margin-left: 27px;
+}
+.d13{
+    margin-left: 30px;
+    margin-top: -15px;
+}
+.footer{
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 150px;
+    width:100%;
+    height:250px;
+    background-color:rgb(2, 22, 2);
+    color: white;
+    font-size: 18px;
+}
+.footer-container{
+    width:90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family:'Courier New', Courier, monospace;
+}
+.footer-section{
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.footer-section h3{
+    margin-bottom: 15px;
+    border-left: 4px solid #fff;
+    padding-left: 8px;
+    font-family:'Courier New', Courier, monospace;
+}
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+    
+}
+.footer-section ul li{
+    margin-bottom: 8px;
+    margin-left: 15%;
+}
+.footer-button{
+    text-align: center;
+    height: 50px;
+    padding: 5px 0;
+    background-color: #ffffff;
+    margin-top: 20px;
+    color: rgb(10, 2, 2);
+}
+.footer p{
+   font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* Page 6 */
+
+.overall-product{
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 1200px;
+    border-radius: 15px;
+  
+    
+}
+.p1 img{
+    width: 450px;
+    height: 600px;
+    margin: 130px 50px;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 70px ;
+}
+.p1 p{
+    margin-left: 30px;
+    color: rgb(204, 45, 71);
+}
+.p{
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+}
+.p1 h2{
+    margin: 10px 300px;
+    font-size: 30px;
+}
+.product{
+    margin-top: -900px;
+    margin-left: 700px;
+}
+.p2, .p4, .p6, .p8{
+    margin-left: 70px;
+    margin-top: 7px;
+    animation: box1 2s ease-in
+}
+@keyframes box1{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translatex(0%);
+    }
+}
+.p1, .p3, .p5, .p7, .p9{
+    margin-top: 7px;
+}
+.overall-product{
+    display: flex;
+}
+.nuts img{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    /* margin-left: 700px; */
+    margin-top: 100px;
+}
+.nuts{
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.n1{
+    padding: 20px;
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    background-color:beige;
+}
+.n1:hover{
+    background-image: url(./Nuts\ and\ diabetes.jpg);
+    color: white;
+    font-weight: bold;
+    opacity: 80%;
+    transform: scale(1.00);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+.abc{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.abc img{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.abc1{
+    width: 550px;
+    background-color:beige;
+    border-radius: 10px;
+    padding: 20px;
+}
+.abc1:hover{
+    background-image: url(./Refreshing\ Beet\ Apple\ Carrot\ Lemon\ Ginger\ Juice\ -\ Thrive\ With\ Janie.jpg);
+    color: black;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    opacity: 80%;
+    transform: scale(1.00);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+.drink{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.k1 img{
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.drink1{
+    width: 550px;
+    height: 350px;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 20px;
+}
+.drink1:hover{
+    background-image:url(./Superfood\ Chocolate\ Milk\ Recipe\ _\ Thrive\ Market.jpg);
+    color: black;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    opacity: 80%;
+    transform: scale(1.00);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
