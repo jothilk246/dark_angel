@@ -504,7 +504,7 @@ span{
     background-color:beige;
 }
 .n1:hover{
-    background-image: url(./Nuts\ and\ diabetes.jpg);
+    background-image: url(./Image/Nuts\ and\ diabetes.jpg);
     color: white;
     font-weight: bold;
     opacity: 80%;
@@ -530,7 +530,7 @@ span{
     padding: 20px;
 }
 .abc1:hover{
-    background-image: url(./Refreshing\ Beet\ Apple\ Carrot\ Lemon\ Ginger\ Juice\ -\ Thrive\ With\ Janie.jpg);
+    background-image: url(./Image/Refreshing\ Beet\ Apple\ Carrot\ Lemon\ Ginger\ Juice\ -\ Thrive\ With\ Janie.jpg);
     color: black;
     background-repeat: no-repeat;
     font-weight: bold;
@@ -558,7 +558,7 @@ span{
     padding: 20px;
 }
 .drink1:hover{
-    background-image:url(./Superfood\ Chocolate\ Milk\ Recipe\ _\ Thrive\ Market.jpg);
+    background-image:url(./Image/Superfood\ Chocolate\ Milk\ Recipe\ _\ Thrive\ Market.jpg);
     color: black;
     background-repeat: no-repeat;
     font-weight: bold;
