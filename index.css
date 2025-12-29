@@ -566,3 +566,34 @@ span{
     transform: scale(1.00);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
+
+/* Page 6 */
+
+.about{
+    background: linear-gradient(270deg, #d2b48c, #c29054, #d88a41, #6f4e37);
+    background-size: 100% 100%;
+    animation: gradient 12s ease infinite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 35px;
+    font-size: 18px;
+}
+@keyframes gradient{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+.c1, .c2, .c3 h1{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.c1 h3{
+    color: black;
+}
+.c2 h3{
+    color: black;
+}
+.c3 h3{
+    color: black;
+}
